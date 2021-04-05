@@ -1,0 +1,98 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.7;
+  background-image: url(/img/bg1.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  transition: 1s ease-in;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  background: rgba(128, 128, 128, 0.664);
+  width: 75rem;
+  height: 32vh;
+  margin: auto;
+}
+main .title {
+  margin-top: 35vh;
+}
+main .title h1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 4.2rem;
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container .days-contain {
+  text-align: center;
+}
+.container .days-contain .days {
+  font-size: 6rem;
+  font-weight: 600;
+}
+.container .days-contain .days-text {
+  font-size: 3rem;
+  color: white;
+}
+.container .hours-contain {
+  text-align: center;
+}
+.container .hours-contain .hours {
+  font-size: 6rem;
+  font-weight: 600;
+}
+.container .hours-contain .hours-text {
+  font-size: 3rem;
+  color: white;
+}
+.container .minutes-contain {
+  text-align: center;
+}
+.container .minutes-contain .minutes {
+  font-size: 6rem;
+  font-weight: 600;
+}
+.container .minutes-contain .minutes-text {
+  font-size: 3rem;
+  color: white;
+}
+.container .seconds-contain {
+  text-align: center;
+}
+.container .seconds-contain .seconds {
+  font-size: 6rem;
+  font-weight: 600;
+}
+.container .seconds-contain .seconds-text {
+  font-size: 3rem;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

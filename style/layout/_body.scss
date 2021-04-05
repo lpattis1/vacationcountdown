@@ -1,0 +1,83 @@
+main {
+    background: rgba(128, 128, 128, 0.664);
+    width: 75rem;
+    height: 32vh;
+    margin: auto;
+
+    .title {
+
+        margin-top: 35vh;
+
+        h1 {
+            margin: auto;
+            text-align: center;
+            padding-top: 4.2rem;
+            padding-bottom: 2rem;
+            font-size: 5rem;
+            color: white;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .days-contain {
+        text-align: center;
+
+        .days {
+            font-size: 6rem;
+            font-weight: 600;
+        }
+
+        .days-text {
+            font-size: 3rem;
+            color: white;
+        }
+    }
+
+    .hours-contain {
+        text-align: center;
+
+        .hours {
+            font-size: 6rem;
+            font-weight: 600;
+        }
+
+        .hours-text {
+            font-size: 3rem;
+            color: white;
+        }
+    }
+
+    .minutes-contain {
+        text-align: center;
+
+        .minutes {
+            font-size: 6rem;
+            font-weight: 600;
+        }
+
+        .minutes-text {
+            font-size: 3rem;
+            color: white;
+        }
+    }
+
+    .seconds-contain {
+        text-align: center;
+
+        .seconds {
+            font-size: 6rem;
+            font-weight: 600;
+        }
+
+        .seconds-text {
+            font-size: 3rem;
+            color: white;
+        }
+    }
+}

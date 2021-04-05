@@ -1,0 +1,30 @@
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.7;
+    background-image: url(/img/bg1.jpg);
+    background-position: fixed;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transition: 1s ease-in;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
